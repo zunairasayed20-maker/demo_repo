@@ -8,10 +8,21 @@
 </head>
 <body>
     <div class="container">
-        <h1>To-Do List</h1>
-        <input type="text" id="taskInput" placeholder="Add a new task...">
-        <button id="addTaskButton">Add Task</button>
-        <ul id="taskList"></ul>
+        <div class="todo-app">
+            <h2>To-Do List</h2>
+            <img src="C:\Users\zunai\Downloads\icon.jpg" alt="To-Do Icon" height="50px" width="50px">
+            <div class="row">
+                <input type="text" id="taskInput" placeholder="Add a new task...">
+                <button id="Add" onclick="AddTask()">Add</button>
+            </div>  
+            <ul id="taskList">
+            <!-- <li class="checked">Task 1</li>
+            <li>Task 2</li>
+            <li>Task 3</li> -->
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
     
 </body>
 </html>
